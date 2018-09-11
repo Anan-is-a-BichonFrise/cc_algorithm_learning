@@ -13,6 +13,7 @@
 		CBDEA45A213A1AA5001258D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBDEA459213A1AA5001258D3 /* Assets.xcassets */; };
 		CBDEA45D213A1AA5001258D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBDEA45B213A1AA5001258D3 /* LaunchScreen.storyboard */; };
 		CBDEA460213A1AA5001258D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDEA45F213A1AA5001258D3 /* main.m */; };
+		CBE34B412148074A000F0AD9 /* AlgorithmMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE34B402148074A000F0AD9 /* AlgorithmMethod.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		CBDEA45C213A1AA5001258D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBDEA45E213A1AA5001258D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBDEA45F213A1AA5001258D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBE34B3F2148074A000F0AD9 /* AlgorithmMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmMethod.h; sourceTree = "<group>"; };
+		CBE34B402148074A000F0AD9 /* AlgorithmMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorithmMethod.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				CBDEA45B213A1AA5001258D3 /* LaunchScreen.storyboard */,
 				CBDEA45E213A1AA5001258D3 /* Info.plist */,
 				CBDEA45F213A1AA5001258D3 /* main.m */,
+				CBE34B3F2148074A000F0AD9 /* AlgorithmMethod.h */,
+				CBE34B402148074A000F0AD9 /* AlgorithmMethod.m */,
 			);
 			path = CCAlgorithmSerialization;
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBE34B412148074A000F0AD9 /* AlgorithmMethod.m in Sources */,
 				CBDEA455213A1AA5001258D3 /* ViewController.m in Sources */,
 				CBDEA460213A1AA5001258D3 /* main.m in Sources */,
 				CBDEA452213A1AA5001258D3 /* AppDelegate.m in Sources */,

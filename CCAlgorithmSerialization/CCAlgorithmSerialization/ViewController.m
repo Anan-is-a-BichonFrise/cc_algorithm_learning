@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "AlgorithmMethod.h"
 @interface ViewController ()
 
 @end
@@ -17,13 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    // 1.简单的 桶排序
+    [AlgorithmMethod algorithmForSimpleBucketSort];
+    
+    // 2.冒泡排序
+    [AlgorithmMethod algorithmForBubbleSort];
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 
 @end
